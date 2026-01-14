@@ -2,16 +2,6 @@ Registro de Pensamentos Disfuncionais
 
 Uma ferramenta web interativa e moderna para auxiliar no processo de Terapia Cognitivo-Comportamental (TCC), permitindo identificar, registrar e reestruturar pensamentos automáticos disfuncionais.
 
-Funcionalidades
-Registro Estruturado
-
-Pensamentos Automáticos: Registre múltiplos pensamentos com nível de crença (0-100%)
-Emoções: Identifique e mensure a intensidade das emoções
-Conclusões Racionais: Desenvolva respostas alternativas baseadas em evidências
-Resultados: Avalie mudanças nas crenças e emoções após a reflexão
-
-Sistema Inteligente de Vinculação
-
 Pensamentos são automaticamente vinculados às conclusões
 Conclusões são exibidas nos resultados para comparação
 Emoções iniciais são vinculadas às emoções finais
