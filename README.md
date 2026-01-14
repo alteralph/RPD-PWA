@@ -16,3 +16,4 @@ Navegue até a pasta do projeto
 Abra registro-pensamentos.html em qualquer navegador moderno
 Pronto! O aplicativo já está funcionando
 
+É possível também dar self-host nesse PWA para utilizar ele em qualuqer plataforma!
