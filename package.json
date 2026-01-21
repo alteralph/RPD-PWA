@@ -1,6 +1,6 @@
 {
   "name": "rpd-sky",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Registro de Pensamentos - TCC App",
   "main": "main.js",
   "scripts": {
@@ -8,8 +8,8 @@
     "dist": "electron-builder",
     "dist:win": "electron-builder --win"
   },
-  "author": "Alteralph <alter@alph.com>",
-  "homepage": "https://github.com/seu-usuario/rpd-sky",
+  "author": "gabsdfreitas <gabdfreitas@outlook.com>",
+  "homepage": "https://github.com/gabsdfreitas/RPD-PWA",
   "license": "MIT",
   "devDependencies": {
     "electron": "^28.0.0",
@@ -18,12 +18,12 @@
   "build": {
     "appId": "com.rpd.sky",
     "productName": "RPD Sky",
-    "copyright": "Copyright © 2026 Alteralph",
+    "copyright": "Copyright © 2026 gabsdfreitas",
     "linux": {
       "target": ["AppImage", "pacman"],
       "icon": "icon.png",
       "category": "Utility",
-      "maintainer": "Alteralph <Alter@alph.com>",
+      "maintainer": "gabsdfreitas <gabdfreitas@outlook.com>",
       "synopsis": "App de Registro de Pensamentos"
     },
     "win": {
