@@ -1,12 +1,13 @@
 {
   "name": "rpd-sky",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Registro de Pensamentos - TCC App",
   "main": "main.js",
   "scripts": {
     "start": "electron .",
     "dist": "electron-builder",
-    "dist:win": "electron-builder --win"
+    "dist:win": "electron-builder --win",
+    "dist:mac": "electron-builder --mac"
   },
   "author": "gabsdfreitas <gabdfreitas@outlook.com>",
   "homepage": "https://github.com/gabsdfreitas/RPD-PWA",
@@ -20,7 +21,10 @@
     "productName": "RPD Sky",
     "copyright": "Copyright © 2026 gabsdfreitas",
     "linux": {
-      "target": ["AppImage", "pacman"],
+      "target": [
+        "AppImage",
+        "pacman"
+      ],
       "icon": "icon.png",
       "category": "Utility",
       "maintainer": "gabsdfreitas <gabdfreitas@outlook.com>",
@@ -30,13 +34,20 @@
       "target": "nsis",
       "icon": "icon.ico"
     },
+    "mac": {
+      "target": "dmg",
+      "icon": "icon.icns",
+      "category": "public.app-category.utilities",
+      "hardenedRuntime": false,
+      "gatekeeperAssess": false
+    },
     "nsis": {
       "oneClick": false,
       "allowToChangeInstallationDirectory": true,
       "createDesktopShortcut": true
     },
     "pacman": {
-        "category": "Utility"
+      "category": "Utility"
     }
   }
 }
